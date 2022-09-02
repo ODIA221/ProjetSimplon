@@ -1,149 +1,36 @@
 /*********************Responsive **********************/
 
-@media only screen and (max-width: 600px)  {
-  
-/*     #headerContainer{
-        display: flex;
-        flex-direction: column;
-    }
-    
-    #menu1
-    {
-        background-image: url(images/topMenuJumia.png);
-        width: 100%;
-        height: 60px;
-    }
 
-   
-    #menu2
-    {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        width: 100%;
-        height: 60px;
-    }
-    #menu2_1
-    {
-        width: 100%;
-        height: 60px;
-        display: flex;
-    }
 
-    #menu2_2
-    {
-        width: 60%;
-        display: flex;
-        flex-wrap: wrap;
-        word-spacing: 20px;
-        text-align: center;
-        padding: 7px;
-        height: auto;
-    }
-    #mainContainer
-    {
-  
-       display: flex;
-       flex-wrap: wrap;
-    
-
-    } */
-     /* 
-    #menu3
-    {
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: center;
-        align-items: center;
-        width: 100%;
-        height: auto;
-    }
-    #recherche
-    {
-        
-        width: 45%;
-        height: auto;
-        display: flex;
-        padding: 10px;
-        cursor: pointer;
-    }
-    #corp
-    {
-        width: auto;
-        height: auto;
-    }
-    #mainContainer
-    {
-        margin: auto;
-        height: auto;
-        display: flex;
-        flex-direction: column;
-    
-    
-
-    }
-    #gauche
-    {
-
-        width: auto;
-        margin: 5px;
-        display: flex;
-        flex-direction: column;
-    }
-    .slide
-    {
-        margin: 0%;
-        padding: 0%;
-        box-sizing: border-box;
-        width: 60%;
-        height: auto;
-        margin: 5px;
-    }
-    #droit
-    {
-        width: auto;
-        margin: 5px;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        justify-items: center;
-
-        
-        
-    }
-    .droit1
-    {
-        width: 99%;
-        height: auto;
-        margin: 1%;
-    }
-    #pied
-    {
-        display: flex;
-
-    }
-    .footerContainer
-    {
-        margin: 5px;
-        width: 20%;
-        height: auto;
-        border-radius: 20%;
-    }
-    
-
- */
-  }
 /*********************Fin  Responsive **********************/
 
 /**********************Menu****************************/
 
-#headerContainer{
+/* #headerContainer{
+    margin: 0%;
+    padding: 0%;
+} */
+
+*
+{
     margin: 0%;
     padding: 0%;
 }
+
+
+
 a
 {
     text-decoration: none;
+}
+
+#headerContainer
+{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    margin: 0%;
+    padding: 0%;
 }
 #menu1
 {
@@ -300,6 +187,7 @@ a
 
 }
 
+
 /******** Conteneur Principal du div gauche********/
 #gauche
 {
@@ -435,5 +323,52 @@ a
     border-radius: 20%;
 }
 
+/***********Footer Défilant*********/
 
+footer
+{
+    margin-top: 20px;
+    width: 100%;
+    margin: 10px auto;
+}
 
+#monForter
+{
+    display: flex;
+    flex-wrap: nowrap;
+    gap: 10px;
+
+}
+
+footer img
+{
+    height: 110px;
+    margin: 0 auto;
+
+}
+
+.footer_Container
+{
+    overflow: auto;
+    white-space: nowrap;
+    background-color: white;
+
+}
+
+.imgFooter2
+{
+    display: none;
+}
+
+.btn1, .btn2
+{
+    background-color: transparent;
+    border: none;
+    max-height: 50px;
+    margin: auto 0;
+}
+
+.btn1:hover, .btn2:hover
+{
+    cursor: pointer;
+}
